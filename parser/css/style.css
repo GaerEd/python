@@ -1,0 +1,562 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
+button {
+    cursor: pointer;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Стили для страницы "Главная" */
+.header{
+    background: url(../img/Rectangle.png);
+}
+.header__menu {
+    margin-top: 34px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 107px 0 94px 0;
+}
+.content__elements {
+    flex-grow: 1;
+}
+.header__title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    max-width: 506px;
+}
+.header__text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    max-width: 425px;
+    margin: 32px 0 71px 0;
+}
+.header__btn {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 50px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    border: 0;
+}
+.header__img {
+    width: 40%;
+}
+.help__title {
+    width: 75%;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: center;
+    margin: 64px auto 64px;
+}
+.help__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content__item {
+    max-width: 359px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 49px 32px 44px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+}
+.help__subtitle {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-top: 48px;
+}
+.help__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin: 15px 0 27px 0;
+}
+.help__link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+.project__title {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 64px 0 32px 0;
+}
+.project__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #222222;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.project__smart {
+    position: relative;
+}
+.project__img {
+    width: 100%;
+    margin-bottom: 32px;
+}
+.img__signature {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.project__block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 112px;
+}
+.block__left .block__right {
+    flex-grow: 1;
+}
+.block__left {
+    margin-right: 32px;
+    position: relative;
+}
+.left__signature {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.block__right {
+    position: relative;
+}
+.right__signature {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.left__img, .right__img {
+    width: 100%;
+}
+footer {
+    background: #316099;
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 91px;
+}
+.footer__block {
+    max-width: 495px;
+}
+.footer__title {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.footer__btn {
+    background: #5A98D0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 80px;
+    border: 0;
+}
+.ol__footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__contact {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 160px;
+    margin-bottom: 64px;
+}
+.footer__contact li {
+    max-width: 395px;
+}
+.copy__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+/* Стили для страницы "Контакты" */
+.bgc__contact{
+    background: url(../img/contacts.png) 0 0/100% 100% no-repeat;;
+}
+.section__contact{
+    margin-top: 51px;
+    padding: 51px 0;
+}
+.contact__title{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.contact__text{
+    max-width: 780px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+}
+.info{
+    padding: 0 10px;
+    margin: 57px 0 96px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info__contact {
+    max-width: 300px;
+}
+.info__img {
+    margin-bottom: 56px;
+}
+.info__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.info__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    list-style: none;
+    margin-bottom: 40px;
+}
+.info__link{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    list-style: none; 
+    text-decoration: none;
+}
+
+.mr{margin-right: 16px;}
+.mb{margin-bottom: 16px;}
+.df{display: flex;}
+.info__form {
+    min-width: 540px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 56px;
+}
+.form__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+.info__label {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+.field {
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 21px 0 21px 43px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+}
+.form__btn {
+    width: 100%;
+    margin-top: 25px;
+    padding: 23px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    border: 0;
+}
+.map{
+    margin-bottom: 112px;
+}
+
+/* Медиа запросы для страницы "Главная" начало:*/
+@media(max-width: 1024px){
+    .container{
+        max-width: 1024px;
+    }
+    .header{
+        padding: 28px 32px 0 32px;
+    }
+    .help__title{
+        max-width: 704px;
+        width: 90%;
+    }
+    .help__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .content__item{
+        margin: 16px 0;
+    }
+    .project__title{
+        margin: 127px 0 32px 0;
+    }
+    .project__smart{
+        padding: 0 35px;
+    }
+    .project__block{
+        padding: 0 32px;
+    }
+    .footer__content{
+        padding: 47px 124px;
+    }
+    .footer__block{
+        max-width: 336px;
+    }
+    .footer__title{
+        margin-bottom: 32px;
+    }
+    .footer__btn{
+        padding: 15px 20px;
+    }
+    .footer__contact ol{
+        padding: 0 30px;
+    }
+
+    /* Стили для страницы "Контакты" */
+    .info{
+        display: flex;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .info__contact{
+        margin-bottom: 64px;
+    }
+}
+
+@media(max-width: 667px){
+    .container{
+        max-width: 667;
+    }
+    .header{
+        padding: 16px 16px 0 16px;
+    }
+    .content__elements{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__title{
+        margin-top: 28px;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .header__text{
+        margin: 12px 0 32px 0;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .header__btn{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .header__img{
+        display: none;
+    }
+    .help__title{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .project__title{
+        margin: 64px 0 32px 0;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .project__text{
+        margin-bottom: 82px;
+        padding: 0 15px;
+    }
+    .project__block{
+        margin-bottom: 16px;
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .project__smart{
+        padding: 0 15px;
+    }
+    .block__left, .blopck__right{
+        margin: 0;
+    }
+    .bottom{
+        margin-bottom: 16px;
+    }
+    .img__signature{
+        top: 16px;
+        right: 26px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .left__signature, .right__signature{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        left: 16px;
+    }
+    .footer__content{
+        padding: 18px 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__title{
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .footer__text{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        margin: 32px 0 40px 0;
+    }
+    .footer__contact ol{
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__copy{
+        text-align: center;
+        padding: 32px 0;
+    }
+}
+/* Медиа запросы для страницы "Главная" конец.*/
+
